@@ -1,0 +1,10 @@
+name: python-helloworld
+
+on: [push]
+## List the steps to be executed by the workflow
+jobs:
+  ## Set the name of the job
+   build:
+    ## Configure the operating system the workflow should run on.
+    ## In this case, the job on Ubuntu
+    runs-on: linux-latest
